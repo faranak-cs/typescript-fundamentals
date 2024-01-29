@@ -14,6 +14,5 @@ function max(arr: number[]) {
   }
   return maxNum;
 }
-
 console.log(add(1, 2));
 console.log(max([1, 2, 3, 4, 5, 6]));
