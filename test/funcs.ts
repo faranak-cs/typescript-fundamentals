@@ -1,11 +1,10 @@
-function add(first: number, second: number) {
-  return first + second;
-}
+// CHANGE THE FUNCTIONS BELOW INTO ARROW FUNCTION
+let add = (first: number, second: number) => first + second;
 
 let maxNum: number;
 
 // RETURN MAX NUMBER
-function max(arr: number[]) {
+let max = (arr: number[]) => {
   maxNum = arr[0];
   for (var i = 1; i < arr.length; i++) {
     if (arr[i] > maxNum) {
@@ -13,6 +12,6 @@ function max(arr: number[]) {
     }
   }
   return maxNum;
-}
+};
 console.log(add(1, 2));
 console.log(max([1, 2, 3, 4, 5, 6]));
